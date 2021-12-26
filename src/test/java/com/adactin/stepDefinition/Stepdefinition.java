@@ -149,13 +149,5 @@ public class Stepdefinition extends Base_Class {
 		sendKeys(pom.getInstanceBookHotel().getCvv(), cvv);
 	}
 
-	@Then("user verify the card details")
-	public void user_verify_the_card_details() {
-		click(pom.getInstanceBookHotel().getBookNow());
-	}
-
-	@When("user enter the logout button")
-	public void user_enter_the_logout_button() {
-		click(pom.getInstanceLogoutPage().getLogout());
-	}
+	
 }
