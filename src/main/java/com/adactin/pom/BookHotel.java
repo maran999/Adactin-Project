@@ -9,23 +9,7 @@ public class BookHotel {
 	
     public static WebDriver driver;
 	
-	@FindBy(id = "first_name")
-	private WebElement firstname;
-	
-	@FindBy(id = "last_name")
-    private WebElement lastname;
-	
-	@FindBy(name = "address")
-	private WebElement address;
-	
-	@FindBy(id = "cc_num")
-	private WebElement cardNum;
-	
-	@FindBy(id = "cc_type")
-	private WebElement cardType;
-	
-	@FindBy (id = "cc_exp_month")
-	private WebElement expMonth;
+	This is Controlled By GIT HUB
 	
 	
 	@FindBy (id = "cc_exp_year")
