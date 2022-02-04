@@ -14,6 +14,8 @@ import com.cucumber.listener.Reporter;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
+This is Runner Class
+
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\java\\com\\adactin\\featureFile", glue = "com\\adactin\\stepDefinition", plugin = {
 		"pretty","html:Reports/HTML_Report","json:Reports/JSON_Report.json"}, monochrome = true)
